@@ -1,0 +1,52 @@
+@import '../../styles/colors.scss';
+
+.card{
+    width: 312px;
+    height: 112px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: left;
+
+    &_title{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 6px;
+        
+        &_small{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            margin-top: 6px;
+        }
+    }
+
+    &_description{
+        font-size: 16px;
+        color: $text_grey;
+
+        &_small{
+            font-size: 14px;
+            color: $text_grey;            
+        }
+    }
+
+    &_container{
+        padding: 25px 20px 25px 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    &_left{
+        width: 72px;
+        height: 72px;
+        background-color: $border_light_blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+    &_right{
+        
+    }
+}

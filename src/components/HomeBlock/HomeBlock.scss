@@ -1,0 +1,76 @@
+@import '../../styles/colors.scss';
+
+.homeBlock{
+    background-color: $background_grey;
+    display: flex;
+    flex-direction: column;
+    padding: 109px 10% 0 10%;
+    &_search{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 109px;
+
+        &_left{
+            width: 50%;
+
+            &_title{
+                text-align: left;
+                font-size: 56px;
+                font-weight: 500;
+                margin-bottom: 24px;
+            }
+
+            &_description{
+                text-align: left;
+                color: $text_grey;
+                font-size: 18px;
+                margin-bottom: 32px;
+            }
+
+            &_search{
+                border: 1px $border_grey solid;
+                border-radius: 8px;
+                padding: 8px;
+                background-color: white;
+                margin-bottom: 24px;
+
+                &_container{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    > input, input:focus{
+                        font-size: 16px;
+                        color: $text_grey;
+                        border: none;
+                        outline: none;
+                        padding: 16px;
+                    }
+
+                    &_job{
+                        width: 45%;
+                        border-right: 1px $border_grey solid !important;
+                    }
+
+                }
+            }
+
+            &_suggestion{
+                text-align: left;
+                font-size: 14px;
+                color: $text_grey;
+            }
+        }
+        
+    }
+
+    &_cards{
+        display: flex;
+        gap: 24px;
+        margin-bottom: 109px;
+    }
+
+    
+    
+    
+}

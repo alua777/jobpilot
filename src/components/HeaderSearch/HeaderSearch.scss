@@ -1,0 +1,27 @@
+@import '../../styles/colors.scss';
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 0 10%;
+}
+
+.headerSearch{
+    padding: 12px 0 12px 0;
+    display: flex;
+    gap: 32px;
+
+    &_logo{
+        display: flex;
+        gap: 8px;
+        font-size: 24px;
+        font-weight: 600;
+        align-items: center;
+    }
+
+    &_buttons{
+        display: flex;
+        gap: 12px;
+    }
+}

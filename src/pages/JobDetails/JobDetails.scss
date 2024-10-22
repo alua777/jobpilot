@@ -1,0 +1,225 @@
+@import './../../styles/colors.scss';
+
+.body{
+    padding: 0 10% 0 10%;
+}
+.jobDetails{
+    &_header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 32px;
+
+        &_info{
+            display: flex;
+            align-items: center;
+
+            &_logo{
+                > img {
+                    width: 96px;
+                    height: 96px;
+                    padding-right: 24px;
+
+                }
+            }
+
+            &_details{
+                display: flex;
+                justify-content: left;
+                flex-direction: column;
+                gap: 12px;
+
+                &_title{
+                    text-align: left;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+
+                &_under{
+                    display: flex;
+                    gap: 8px;
+                    &_company{
+                        font-size: 18px;
+                        color: $text_dark_grey;
+                        font-weight: 400;
+                    }
+
+                    &_type{
+                        font-size: 12px;
+                        color: $white;
+                        background-color: $text_green;
+                        font-weight: 600;
+                        padding: 4px 8px 4px 8px;
+                        border-radius: 3px;
+                    }
+                }
+
+
+            }
+        }
+
+        &_buttons{
+            display: flex;
+            text-align: center;
+            gap: 12px;
+        }
+    }
+
+    &_body{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        text-align: left;
+        gap: 24px;
+        
+        &_left{
+            width: 60%;
+
+            &_description{
+                color: $text_grey;
+                
+                >p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: black;
+                }                
+            }
+
+            &_part{
+
+                > p{
+                    font-weight: 500;
+                }
+
+                > ul > li{
+                    color: $text_grey;
+                }
+            }
+        }
+
+        &_right{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+
+            &_card{
+                
+                display: flex;
+
+                width: 100%;
+                border-radius: 8px;
+                border: 2px solid $border_light_blue;
+
+                &_salary{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 12px;
+                    width: 50%;
+                    padding: 32px;
+                    border-right: 2px solid $border_light_blue;
+
+                    &_title{
+                        font-weight: 500;
+                        text-align: center;
+                    }
+
+                    &_number{
+                        color: $text_green;
+                        font-size: 20px;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+
+                    &_type{
+                        text-align: center;
+                        color: $text_grey;
+                        font-size: 14px;
+                    }
+                }
+                
+                &_location{
+                    width: 50%;
+                    padding: 32px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 8px;
+
+                    &_country{
+                        text-align: center;
+                        color: $text_grey;
+                        font-size: 16px;
+                    }
+
+                    &_map{
+                        text-align: center;
+                    }
+
+                }
+
+            }
+
+            &_bigcard{
+                display: flex;
+                flex-direction: column;
+
+                width: 100%;
+                border-radius: 8px;
+                border: 2px solid $border_light_blue;
+
+                &_container{
+                    padding: 32px;
+
+                    &_title{
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+
+                    &_grid{
+                        width: 100%;
+                        display: grid;
+                        column-gap: 16px;
+                        grid-template-columns: auto auto auto;
+                        margin-bottom: 24px;
+
+                        &_piece{
+                            margin-top: 20px;
+                            text-align: left;
+
+                            > p{
+                                font-size: 12px;
+                                color: $text_grey;
+                            }
+
+                            > div{
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+
+                    &_share{
+                        border-top: 2px solid $border_light_blue;
+                        
+                        >p{
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+
+                        &_links{
+                            display: flex;
+                            gap: 8px;
+                        }
+                    }
+                }
+
+            }
+
+           
+
+        }
+    }
+}

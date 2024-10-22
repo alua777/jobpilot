@@ -17,7 +17,8 @@ export default function Header() {
         }
     }
   return (
-    <div className="header">
+    <div className='header container'>
+    {/* <div className="header"> */}
         <div className="header_tabs">
             {tabs.map(tab => (
                 <div className='header_tabs_tab' key={tab} onClick={()=>handleClick(tab)} style={{cursor: "pointer"}}>{tab}</div>
@@ -27,6 +28,7 @@ export default function Header() {
             <div className="header_number-number">+1-202-555-0178</div>
             
         </div>
+    {/* </div> */}
     </div>
   )
 }

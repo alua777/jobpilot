@@ -1,0 +1,26 @@
+@import '../../styles/colors.scss';
+
+.block{
+    &_cards{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_arrows{
+        position: absolute;
+        margin-top: 100px;
+        left: 5px;                     
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+
+        &_up{
+            display: flex;
+            gap: 450px;
+        }
+    }
+}

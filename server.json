@@ -1,0 +1,148 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Doctor",
+            "type": "FULL-TIME",
+            "country": "Belgium",
+            "company": "Hospital Booba",
+            "salary": "$50,000 - $120,000",
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        
+        },
+        {
+            "id": 2,
+            "title": "Carpenter",
+            "type": "PART-TIME",
+            "country": "Slovenia",
+            "company": "Carpenhoes",
+            "salary": "$50,000 - $120,000",
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        },
+        {
+            "id": 3,
+            "title": "Artist",
+            "type": "INTERNSHIP",
+            "country": "Peru",
+            "company": "We draw TM",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 1
+        },
+        {
+            "id": 4,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        },
+        {
+            "id": 5,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        },
+        {
+            "id": 6,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 1
+        },
+        {
+            "id": 7,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        },
+        {
+            "id": 8,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        },
+        {
+            "id": 9,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 1
+        },
+        {
+            "id": 10,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        },
+        {
+            "id": 11,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 1
+        },
+        {
+            "id": 12,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        },
+        {
+            "id": 13,
+            "title": "Teacher",
+            "type": "FULL-TIME",
+            "country": "Madagaskar",
+            "company": "School for special kids",
+            "salary": "$50,000 - $120,000" ,
+            "description": "The role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platformThe role will involve translating project specifications into clean, test-driven, easily maintainable code. You will work with the Project and Development teams as well as with the Technical Director, adhering closely to project plans and delivering work that meets functional & non-functional requirements. You will have the opportunity to create new, innovative, secure and scalable features for our clients on the Shopify platform",
+            "requirements": ["apasodj", "djasi", "fiahoi"],
+            "marked": 0
+        }
+    ]
+}

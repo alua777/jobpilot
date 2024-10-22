@@ -2,11 +2,6 @@
 .header{
    background-color: $background_grey; 
    height: 48px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 0 300px 0 300px;
-   
     &_tabs {
         display: inherit;
         gap: 24px;

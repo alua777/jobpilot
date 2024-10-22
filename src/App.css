@@ -1,6 +1,11 @@
 .App {
   text-align: center;
-  /* padding: 0 300px 0 300px; */
-  font-size: 14;
+  font-size: 16;
+  
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./Inter.ttf) format('truetype');
 }
 
