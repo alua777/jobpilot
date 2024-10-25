@@ -23,13 +23,13 @@ export default function HowWorks() {
         <HowWorksCard title={cards[3][0]} description={cards[3][1]} icon="person"/>
       </div>
       
-      <div className='block_arrows'>
+      {/* <div className='block_arrows'>
         <div className='block_arrows_up'>
           <Icon name="arrow"/>
           <Icon name="arrow"/>
         </div>  
           <Icon name="arrow_down"/>
-        </div>
+        </div> */}
     </div>
   </div>
   )

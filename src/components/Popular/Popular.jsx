@@ -2,17 +2,8 @@ import React from 'react'
 import './Popular.scss'
 import Card from '../Card/Card'
 
-export default function Popular() {
-  const categories = [
-    ['Graphics & Design', '357 Open position'],
-    ['Graphics & Design', '357 Open position'],
-    ['Graphics & Design', '357 Open position'],
-    ['Graphics & Design', '357 Open position'],
-    ['Graphics & Design', '357 Open position'],
-    ['Graphics & Design', '357 Open position'],
-    ['Graphics & Design', '357 Open position'],
-    ['Graphics & Design', '357 Open position']
-  ]
+export default function Popular(props) {
+  
     
   return (
     <div className='block_white popular'>
@@ -24,8 +15,8 @@ export default function Popular() {
           <button className='button button-secondary'>View All</button>
         </div>
         <div className='block_body_grid'>
-          {categories.map(category => (
-            <Card title={category[0]} description={category[1]} type="popular"/>
+          {props.jobs.map(job => (
+            <Card title={job.job_type} description={job.title} type="popular"/>
           ))}
         </div>
       </div>

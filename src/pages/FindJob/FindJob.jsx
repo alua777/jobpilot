@@ -7,17 +7,16 @@ export default function FindJob() {
 
   const [jobs, setJobs] = useState([])
 
-  const [curJobs, setCurJobs] = useState([])
 
   useEffect(() => {axios.get('http://localhost:3000/jobs')
-  .then(function (response) {
-    setJobs(response.data);
-  })
-  .catch(function (error) {
-    console.log(error);
-  })
-  .finally(function () {
-  });}, []);
+    .then(function (response) {
+      setJobs(response.data);
+    })
+    .catch(function (error) {
+      console.log(error);
+    })
+    .finally(function () {
+    });}, []);
 
   
   
@@ -30,7 +29,7 @@ export default function FindJob() {
           
         </div>
         <div className='findjob_joblist'>
-          {curJobs.map(job => (
+          {jobs.map(job => (
             <JobCard key={job.id} job={job}/>
           ))}
         </div>
