@@ -1,20 +1,24 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import './MostPopular.scss'
-import Card from '../Card/Card'
-import Button from '../Button/Button'
+import { useNavigate } from 'react-router-dom';
 
 export default function MostPopular(props) {
   const [list, setList] = useState([]);
-  
+  const navigate = useNavigate();
+  const handleClick = (job) => { 
+    navigate(`/findjob/job/${job.id}`, { state: { job: job } });
+  }
+
   useEffect(() => {
     if (props.jobs && props.jobs.length > 0) {
       const sortedJobs = [...props.jobs]
-      .sort((a, b) => b.view - a.view)
+      .sort((a, b) => b.views - a.views)
       .slice(0, 12)
       setList(sortedJobs); 
     }
-  }, []);
+  }, [props.jobs]);
+
 
     
   return (
@@ -24,13 +28,12 @@ export default function MostPopular(props) {
           <div className='block_title'>
             Most Popular Vacancies
           </div>
-          <Button className='button button-secondary'>View All</Button>
         </div>
         <div className='block_body_grid'>
           {list.map(job => (
             <div key={job.id} className='block_body_grid_card'>
-              <h1>{job.title}</h1>
-              <p>{job.category} Open Positions</p>
+              <h1 onClick={() => handleClick(job)}>{job.title}</h1>
+              <p>{job.views} Views</p>
             </div>
           ))}
         </div>

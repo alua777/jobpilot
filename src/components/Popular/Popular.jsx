@@ -16,7 +16,7 @@ export default function Popular(props) {
         </div>
         <div className='block_body_grid'>
           {props.jobs.map(job => (
-            <Card title={job.job_type} description={job.title} type="popular"/>
+            <Card key={job.id} title={job.job_type} description={job.title} type="popular"/>
           ))}
         </div>
       </div>

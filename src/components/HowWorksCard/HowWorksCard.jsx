@@ -14,7 +14,6 @@ export default function HowWorksCard(props) {
     setMouseOn(false);
   }
   const color = mouseOn ? 'white' : '';
-  console.log(mouseOn);
 
   return (
     <div onMouseEnter={handleHover} onMouseLeave={handleLeave}
